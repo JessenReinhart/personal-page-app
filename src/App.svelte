@@ -101,7 +101,7 @@
 
   <nav class="flex space-x-2 mt-8 w-full justify-center md:relative md:bg-white md:p-0 md:border-0 fixed bottom-0 left-0 p-6 bg-gray-50 border z-50">
     <button
-      class="py-2 px-4 rounded-md cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
+      class="py-2 px-4 rounded-md border-0 cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
       class:selected="{activeTab === 'summary'}"
       class:shadow-inner="{activeTab === 'summary'}"
       on:click={() => activeTab = 'summary'}
@@ -109,7 +109,7 @@
       Summary
     </button>
     <button
-      class="py-2 px-4 rounded-md cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
+      class="py-2 px-4 rounded-md border-0 cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
       class:selected="{activeTab === 'experiences'}"
       class:shadow-inner="{activeTab === 'experiences'}"
       on:click={() => activeTab = 'experiences'}
@@ -117,7 +117,7 @@
       Experiences
     </button>
     <button
-      class="py-2 px-4 rounded-md cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
+      class="py-2 px-4 rounded-md border-0 cursor-pointer hover:shadow-lg focus:shadow-inner focus:bg-gray-100 transition"
       class:shadow-inner="{activeTab === 'education'}"
       class:selected="{activeTab === 'education'}"
       on:click={() => activeTab = 'education'}
